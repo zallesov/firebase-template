@@ -1,0 +1,53 @@
+{
+  "name": "firebase-react-templ-client",
+  "version": "0.0.2",
+  "author": "Corbin Crutchley <crutchcorn@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/crutchcorn/firebase-react-templ",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "eslint --fix ./src/**/*.{ts,tsx}",
+    "lint": "eslint ./src/**/*.{ts,tsx}"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.3",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-router-dom": "^5.1.8",
+    "axios": "^0.21.1",
+    "classnames": "^2.3.1",
+    "eslint-config-react-app": "^6.0.0",
+    "firebase": "^8.7.1",
+    "formik": "^2.2.9",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "typescript": "^4.3.5",
+    "waait": "^1.0.5",
+    "yup": "^0.32.9",
+    "yup-password": "^0.2.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "not ie <= 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
